@@ -1,4 +1,4 @@
-Aquí tienes el `README.md` listo para que lo subas a tu repo de GitHub, javps:
+# README
 
 ```markdown
 # MiHUD (Rainmeter)
