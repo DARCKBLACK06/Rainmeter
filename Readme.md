@@ -1,6 +1,3 @@
-# README
-
-```markdown
 # MiHUD (Rainmeter)
 
 **MiHUD** es un conjunto modular de skins para Rainmeter diseñado para mostrar información de sistema, red, hora y espectro musical, con un diseño visual personalizable y bordes animados.
@@ -10,7 +7,6 @@
 ## 📂 Estructura del proyecto
 
 ```
-
 MiHUD/
 │  Loader.ini                 # (Opcional) Carga todos los módulos a la vez
 │
@@ -30,8 +26,7 @@ MiHUD/
 │  └─ MusicSpectrum.ini       # Espectro de música (tipo CAVA)
 │
 └─ Network/
-└─ SpeedNetwork.ini        # IPv4, tipo de conexión e IO de red
-
+   └─ SpeedNetwork.ini        # IPv4, tipo de conexión e IO de red
 ```
 
 ---
@@ -39,11 +34,9 @@ MiHUD/
 ## ⚙️ Instalación y uso
 
 1. Copia la carpeta `MiHUD` en:
-```
-
-Documentos\Rainmeter\Skins\\
-
-````
+   ```
+   Documentos\Rainmeter\Skins\
+   ```
 2. Abre Rainmeter y selecciona **Refresh all**.
 3. Carga módulos individuales o `Loader.ini` para todo el HUD.
 
@@ -68,17 +61,16 @@ CornerCut=25
 Bars=48
 BarWidth=6
 BarGap=3
-````
+```
 
 ---
 
 ## 🛠 Funcionamiento
 
 Cada módulo Rainmeter:
-
-* **Measures** → Obtienen datos del sistema (`CPU`, `RAM`, `NetIn`, `NetOut`, `AudioLevel`, `Time`, `SysInfo`, etc.).
-* **Meters** → Dibujan en pantalla (`Shape`, `String`, `Bar`, `Image`) usando las variables globales.
-* **Recursos compartidos** → Colores, tamaños y estilos unificados desde `Variables.inc`.
+- **Measures** → Obtienen datos del sistema (`CPU`, `RAM`, `NetIn`, `NetOut`, `AudioLevel`, `Time`, `SysInfo`, etc.).
+- **Meters** → Dibujan en pantalla (`Shape`, `String`, `Bar`, `Image`) usando las variables globales.
+- **Recursos compartidos** → Colores, tamaños y estilos unificados desde `Variables.inc`.
 
 ---
 
@@ -135,29 +127,22 @@ Cada módulo Rainmeter:
 
 ## 📌 Módulos
 
-* **InfoPanel** → Panel octagonal con CPU, RAM, Disco, Host y Hora.
-* **MusicSpectrum** → Rectángulo con espectro musical FFT.
-* **Clock** → Hora y fecha minimalistas.
-* **Network** → IPv4, tipo de conexión (WiFi/Ethernet) y velocidades de red.
+- **InfoPanel** → Panel octagonal con CPU, RAM, Disco, Host y Hora.  
+- **MusicSpectrum** → Rectángulo con espectro musical FFT.  
+- **Clock** → Hora y fecha minimalistas.  
+- **Network** → IPv4, tipo de conexión (WiFi/Ethernet) y velocidades de red.  
 
 ---
 
 ## 🚀 Roadmap
 
-* [ ] Animaciones de bordes tipo “líquido” con gradiente.
-* [ ] Temas claros/oscuros.
-* [ ] Layouts predefinidos.
-* [ ] Tooltips e interacciones extra.
+- [ ] Animaciones de bordes tipo “líquido” con gradiente.
+- [ ] Temas claros/oscuros.
+- [ ] Layouts predefinidos.
+- [ ] Tooltips e interacciones extra.
 
 ---
 
 ## 📜 Licencia
 
 MIT — libre para modificar y compartir.
-
-```
-
----
-
-Si quieres, en el siguiente paso puedo dejarte también **`Variables.inc` y `InfoPanel.ini` ya funcionales** para que el repo tenga algo que mostrar desde el primer commit. ¿Te lo preparo así?
-```
